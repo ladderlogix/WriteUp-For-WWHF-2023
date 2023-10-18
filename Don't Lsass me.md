@@ -14,17 +14,25 @@ After downloading the file we see it is named lsass.dmp. Lsass is typically used
 4. Open terminal. Click on the path of the folder then type cmd, then press enter.\
 ![pathcm](pathcmd.png)
 5. Launch Mimikatz Program\
-```mimikatz.exe```
+```bash
+mimikatz.exe
+```
 ![launch](launch2.png)
-6. Open File - We need to tell mimikatz where to look for our dump file\
-```sekurlsa::minidump /path/to/dump```
+7. Open File - We need to tell mimikatz where to look for our dump file\
+```bash
+sekurlsa::minidump /path/to/dump
+```
 ![mimilock](mimilock.png)
-7. Launch Attack\
-```sekurlsa::logonPasswors```
+8. Launch Attack\
+```bash
+sekurlsa::logonPasswors
+```
 ![logonpass](LongOutput.png)
-8. Flag - Looking through the output we see a block of text with the username of Emily and scrolling down we find the password which looks like the flag\
+9. Flag - Looking through the output we see a block of text with the username of Emily and scrolling down we find the password which looks like the flag\
 ![flag](Flag.png)
-```dont_you_sass_me_windows_is_still_the_best_os```
+```bash
+dont_you_sass_me_windows_is_still_the_best_os
+```
 
 ## Further Reading
 [Ways to get lsass dumps](https://crypt0ace.github.io/posts/Dumping-Lsass/#:~:text=Mimikatz%20is%20a%20very%20popular,extract%20the%20plain%20text%20passwords.)
