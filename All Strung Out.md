@@ -12,10 +12,10 @@
 ```bash 
 strings evidence.mem
 ```
-![Longstrung](Media/Stringcommandin.png)
+![Longstrung](Media/Stringcommandin.png)\
 5. There are alot of strings in this file. One solution is to filter it down to the strings we are intrested in. Windows has the function findstr, and we know we are looking for a flag that start with flag{ (Tip: After seeing the flag we can stop the command by pressing ctrl+ c)
-![wingrep](Media/wingrep.png)
-6. Flag is found
+![wingrep](Media/wingrep.png)\
+6. Flag is found\
 ![flagthing](Media/flagfagl.png)
 ```bash
 flag{th1s_1s_the_flag_1n_the_shell}
@@ -38,7 +38,7 @@ unzip shmoocon_2019_evidence.zip
 strings evidence.mem
 ```
 ![strings](Media/Strings.png)\
-![badstrings](BMedia/adStrings.png)\
+![badstrings](Media/BadStrings.png)\
 5. There are so many strings that pass throughout the screen that it can be hard to find the one we want. Luckly linux has a command to filter strings. It is called grep, we can pass the output of the previous command into grep by using the pipe |. The grep takes a string to filter for, I choose flag{ because we know the flag format starts with it.
 ```bash
 strings evidence.mem | grep "flag{"
