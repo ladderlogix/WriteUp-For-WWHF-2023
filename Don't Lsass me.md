@@ -15,7 +15,7 @@ After downloading the file we see it is named lsass.dmp. Lsass is typically used
 ![pathcm](pathcmd.png)
 5. Launch Mimikatz Program
 ```mimikatz.exe```
-![launch](Launch2.png)
+![launch](launch2.png)
 6. Open File - We need to tell mimikatz where to look for our dump file
 ```sekurlsa::minidump /path/to/dump```
 ![mimilock](mimilock.png)
