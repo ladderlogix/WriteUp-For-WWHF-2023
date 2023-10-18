@@ -13,7 +13,7 @@
 strings evidence.mem
 ```
 ![Longstrung](Media/Stringcommandin.png)\
-5. There are alot of strings in this file. One solution is to filter it down to the strings we are intrested in. Windows has the function findstr, and we know we are looking for a flag that start with flag{ (Tip: After seeing the flag we can stop the command by pressing ctrl+ c)
+5. There are alot of strings in this file. One solution is to filter it down to the strings we are intrested in. Windows has the function findstr, and we know we are looking for a flag that start with flag{. In command prompt | will pass the output of a previous command into another. (Tip: After seeing the flag we can stop the command by pressing ctrl+ c)
 ![wingrep](Media/wingrep.png)\
 6. Flag is found\
 ![flagthing](Media/flagfagl.png)
