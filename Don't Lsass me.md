@@ -5,6 +5,7 @@ After downloading the file we see it is named lsass.dmp. Lsass is typically used
 
 ## Launching Mimikatz
 **Windows defender and chrome/edge smart screen will try to block this program. You have to allow it to run**
+**Also this probaly should be ran in a vm that you dont care about**
 1. [Download Mimikatz binaries](https://github.com/gentilkiwi/mimikatz/releases)(It only works on windows machines) - go to the link by pressing download mimikatz then click on the option that says mimikatz_trunk.zip\
 ![mimidown](Media/MimikatzDownload.png)
 2. Extract Mimikatz - Double click on the file you just downloaded. Then drag the x64 folder to your downloads folder.\
