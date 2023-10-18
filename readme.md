@@ -1,4 +1,3 @@
 # Write up for homework
-- [Don't Lsass me](/Dont lsass me.md)
-- [All strung out](/All strung out.md)
-- [Test](https://google.com)
+- [Don't Lsass me](WriteUp-For-WWHF-2023//Dont lsass me.md)
+- [All strung out](WriteUp-For-WWHF-2023/All strung out.md)
