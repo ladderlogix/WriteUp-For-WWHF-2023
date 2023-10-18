@@ -27,9 +27,9 @@ sekurlsa::minidump /path/to/dump
 ```bash
 sekurlsa::logonPasswors
 ```
-![logonpass](LongOutput.png)
+![logonpass](LongOutput.png)\
 9. Flag - Looking through the output we see a block of text with the username of Emily and scrolling down we find the password which looks like the flag\
-![flag](Flag.png)
+![flag](Flag.png)\
 ```bash
 dont_you_sass_me_windows_is_still_the_best_os
 ```
