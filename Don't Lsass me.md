@@ -19,7 +19,7 @@ mimikatz.exe
 ```
 ![launch](Media/launch2.png)
 \
-7. Open File - We need to tell mimikatz where to look for our dump file\
+7. Open File - We need to tell mimikatz where to look for our dump file
 ```bash
 sekurlsa::minidump /path/to/dump
 ```
