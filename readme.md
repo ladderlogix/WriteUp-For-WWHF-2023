@@ -1,3 +1,3 @@
 # Write up for homework
-- [Don't Lsass me](Dont lsass me.md)
-- [All strung out](All strung out.md)
+- [Don't Lsass me](/Dont lsass me.md)
+- [All strung out](/All strung out.md)
