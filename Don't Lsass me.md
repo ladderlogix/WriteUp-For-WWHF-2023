@@ -9,7 +9,7 @@ After downloading the file we see it is named lsass.dmp. Lsass is typically used
 ![mimidown](MimikatzDownload.png)
 2. Extract Mimikatz - Double click on the file you just downloaded. Then drag the x64 folder to your downloads folder.
 ![extract](extractmimi.png)
-3. Open the folder we extracted
+3. Open the folder we extracted\
 ![folderopen](folderopen.png)
 4. Open terminal. Click on the path of the folder then type cmd, then press enter.
 ![pathcm](pathcmd.png)
