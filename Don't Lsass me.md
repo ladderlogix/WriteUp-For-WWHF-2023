@@ -5,24 +5,24 @@ After downloading the file we see it is named lsass.dmp. Lsass is typically used
 
 ## Launching Mimikatz
 **Windows defender and chrome/edge smart screen will try to block this program. You have to allow it to run**
-1. [Download Mimikatz binaries](https://github.com/gentilkiwi/mimikatz/releases)(It only works on windows machines) - go to the link by pressing download mimikatz then click on the option that says mimikatz_trunk.zip
+1. [Download Mimikatz binaries](https://github.com/gentilkiwi/mimikatz/releases)(It only works on windows machines) - go to the link by pressing download mimikatz then click on the option that says mimikatz_trunk.zip\
 ![mimidown](MimikatzDownload.png)
-2. Extract Mimikatz - Double click on the file you just downloaded. Then drag the x64 folder to your downloads folder.
+2. Extract Mimikatz - Double click on the file you just downloaded. Then drag the x64 folder to your downloads folder.\
 ![extract](extractmimi.png)
 3. Open the folder we extracted\
 ![folderopen](folderopen.png)
-4. Open terminal. Click on the path of the folder then type cmd, then press enter.
+4. Open terminal. Click on the path of the folder then type cmd, then press enter.\
 ![pathcm](pathcmd.png)
-5. Launch Mimikatz Program
+5. Launch Mimikatz Program\
 ```mimikatz.exe```
 ![launch](launch2.png)
-6. Open File - We need to tell mimikatz where to look for our dump file
+6. Open File - We need to tell mimikatz where to look for our dump file\
 ```sekurlsa::minidump /path/to/dump```
 ![mimilock](mimilock.png)
-7. Launch Attack
+7. Launch Attack\
 ```sekurlsa::logonPasswors```
 ![logonpass](LongOutput.png)
-8. Flag - Looking through the output we see a block of text with the username of Emily and scrolling down we find the password which looks like the flag
+8. Flag - Looking through the output we see a block of text with the username of Emily and scrolling down we find the password which looks like the flag\
 ![flag](Flag.png)
 ```dont_you_sass_me_windows_is_still_the_best_os```
 
