@@ -32,19 +32,19 @@ wget https://static.metaproblems.com/227be1210e147f3368ec2cd54e94d973/shmoocon_2
 ```bash
 unzip shmoocon_2019_evidence.zip
 ```
-![unzip](unzip.png)
+![unzip](unzip.png)\
 4. Find Strings
 ```bash
 strings evidence.mem
 ```
-![strings](Strings.png)
-![badstrings](BadStrings.png)
+![strings](Strings.png)\
+![badstrings](BadStrings.png)\
 5. There are so many strings that pass throughout the screen that it can be hard to find the one we want. Luckly linux has a command to filter strings. It is called grep, we can pass the output of the previous command into grep by using the pipe |. The grep takes a string to filter for, I choose flag{ because we know the flag format starts with it.
 ```bash
 strings evidence.mem | grep "flag{"
 ```
-![bigboom](BigBoom.png)
-6. After running the command we see the flag pop up. We can stop the command by pressing ctrl + c. Then we can highlight the flag and press ctrl + shift + c to copy it.
+![bigboom](BigBoom.png)\
+6. After running the command we see the flag pop up. We can stop the command by pressing ctrl + c. Then we can highlight the flag and press ctrl + shift + c to copy it.\
 ![flag!!](flaglin.png)
 ```bash
 flag{th1s_1s_the_flag_1n_the_shell}
