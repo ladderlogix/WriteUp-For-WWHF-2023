@@ -1,6 +1,6 @@
 # All Strung Out
-- [Windows](#windows)
-- [Linux](#linux)
+- ### [Windows](#windows)
+- ### [Linux](#linux)
 
 ## Windows
 1. Download file by clicking on the link
