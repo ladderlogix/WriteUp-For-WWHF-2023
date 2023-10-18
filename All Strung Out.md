@@ -28,7 +28,7 @@ flag{th1s_1s_the_flag_1n_the_shell}
 wget https://static.metaproblems.com/227be1210e147f3368ec2cd54e94d973/shmoocon_2019_evidence.zip
 ```
 ![]()
-3. Extract file & move into directory - the linux command to unzip a file is unzip followed by the file. By default it will extract all files into the same directory, that is what the green boxes show. They also show what file was extracted.
+3. Extract file - the linux command to unzip a file is unzip followed by the file. By default it will extract all files into the same directory, that is what the green boxes show. They also show what file was extracted.
 ```bash
 unzip shmoocon_2019_evidence.zip
 ```
